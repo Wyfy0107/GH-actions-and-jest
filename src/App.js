@@ -8,6 +8,7 @@ function App() {
   return (
     <div className='App'>
       <h1>Display Active Users Account Details</h1>
+      <Account user={user} />
     </div>
   );
 }
